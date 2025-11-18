@@ -1,0 +1,36 @@
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx-server
+    ports:
+      - "8081:80"
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+      - ./static:/usr/share/nginx/html
+
+  apache-prefork:
+    image: httpd:latest
+    container_name: apache-prefork
+    ports:
+      - "8082:80"
+    volumes:
+      - ./apache/httpd-prefork.conf:/usr/local/apache2/conf/httpd.conf
+      - ./static:/usr/local/apache2/htdocs
+
+  apache-event:
+    image: httpd:latest
+    container_name: apache-event
+    ports:
+      - "8083:80"
+    volumes:
+      - ./apache/httpd-event.conf:/usr/local/apache2/conf/httpd.conf
+      - ./static:/usr/local/apache2/htdocs
+
+  k6:
+    image: grafana/k6
+    container_name: k6-client
+    volumes:
+      - ./k6:/scripts
+      - ${RESULTS_DIR}:/results
+
+    entrypoint: [ "tail", "-f", "/dev/null" ]
