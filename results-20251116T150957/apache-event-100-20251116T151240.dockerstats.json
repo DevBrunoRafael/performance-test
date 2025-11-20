@@ -1,6 +1,0 @@
-{"BlockIO":"4.1kB / 4.98MB","CPUPerc":"332.61%","Container":"apache-event","ID":"da6ab538cf1a","MemPerc":"0.05%","MemUsage":"15.28MiB / 31.26GiB","Name":"apache-event","NetIO":"291MB / 18.6GB","PIDs":"82"}
-{"BlockIO":"4.1kB / 4.98MB","CPUPerc":"403.56%","Container":"apache-event","ID":"da6ab538cf1a","MemPerc":"0.06%","MemUsage":"19.26MiB / 31.26GiB","Name":"apache-event","NetIO":"307MB / 20GB","PIDs":"109"}
-{"BlockIO":"4.1kB / 4.98MB","CPUPerc":"414.21%","Container":"apache-event","ID":"da6ab538cf1a","MemPerc":"0.06%","MemUsage":"19MiB / 31.26GiB","Name":"apache-event","NetIO":"324MB / 21.5GB","PIDs":"109"}
-{"BlockIO":"4.1kB / 6MB","CPUPerc":"415.64%","Container":"apache-event","ID":"da6ab538cf1a","MemPerc":"0.07%","MemUsage":"22.05MiB / 31.26GiB","Name":"apache-event","NetIO":"339MB / 23.2GB","PIDs":"136"}
-{"BlockIO":"4.1kB / 6MB","CPUPerc":"423.65%","Container":"apache-event","ID":"da6ab538cf1a","MemPerc":"0.06%","MemUsage":"18.11MiB / 31.26GiB","Name":"apache-event","NetIO":"354MB / 24.9GB","PIDs":"110"}
-{"BlockIO":"4.1kB / 6MB","CPUPerc":"39.03%","Container":"apache-event","ID":"da6ab538cf1a","MemPerc":"0.06%","MemUsage":"18.01MiB / 31.26GiB","Name":"apache-event","NetIO":"363MB / 25.8GB","PIDs":"136"}

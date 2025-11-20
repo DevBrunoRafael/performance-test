@@ -1,6 +1,0 @@
-{"BlockIO":"0B / 0B","CPUPerc":"234.19%","Container":"nginx-server","ID":"98b1794d7197","MemPerc":"0.08%","MemUsage":"26.55MiB / 31.26GiB","Name":"nginx-server","NetIO":"294MB / 31.9GB","PIDs":"13"}
-{"BlockIO":"0B / 0B","CPUPerc":"249.18%","Container":"nginx-server","ID":"98b1794d7197","MemPerc":"0.08%","MemUsage":"24.7MiB / 31.26GiB","Name":"nginx-server","NetIO":"311MB / 33.9GB","PIDs":"13"}
-{"BlockIO":"0B / 0B","CPUPerc":"241.18%","Container":"nginx-server","ID":"98b1794d7197","MemPerc":"0.08%","MemUsage":"25.04MiB / 31.26GiB","Name":"nginx-server","NetIO":"326MB / 35.8GB","PIDs":"13"}
-{"BlockIO":"0B / 0B","CPUPerc":"256.48%","Container":"nginx-server","ID":"98b1794d7197","MemPerc":"0.06%","MemUsage":"18.25MiB / 31.26GiB","Name":"nginx-server","NetIO":"343MB / 37.8GB","PIDs":"13"}
-{"BlockIO":"0B / 0B","CPUPerc":"120.43%","Container":"nginx-server","ID":"98b1794d7197","MemPerc":"0.06%","MemUsage":"18.48MiB / 31.26GiB","Name":"nginx-server","NetIO":"354MB / 39GB","PIDs":"13"}
-{"BlockIO":"0B / 0B","CPUPerc":"16.07%","Container":"nginx-server","ID":"98b1794d7197","MemPerc":"0.04%","MemUsage":"12.52MiB / 31.26GiB","Name":"nginx-server","NetIO":"358MB / 39.4GB","PIDs":"13"}

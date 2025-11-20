@@ -16,7 +16,7 @@ mkdir -p "$RESULTS_DIR"
 export RESULTS_DIR 
 
 # Definir as cargas (VUs) e duração dos testes aqui:
-LOADS=(100 1000 5000) #10000
+LOADS=(100 1000 5000 10000) #10000
 DURATION="10s"        # 30s
 
 SERVERS=(

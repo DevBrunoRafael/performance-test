@@ -1,0 +1,8 @@
+{"BlockIO":"0B / 7.01MB","CPUPerc":"303.48%","Container":"apache-event","ID":"7a27ecc95ff7","MemPerc":"0.05%","MemUsage":"15.99MiB / 31.26GiB","Name":"apache-event","NetIO":"86.7MB / 7.86GB","PIDs":"82"}
+{"BlockIO":"0B / 7.01MB","CPUPerc":"455.59%","Container":"apache-event","ID":"7a27ecc95ff7","MemPerc":"0.09%","MemUsage":"29.83MiB / 31.26GiB","Name":"apache-event","NetIO":"107MB / 9.02GB","PIDs":"163"}
+{"BlockIO":"0B / 7.01MB","CPUPerc":"399.84%","Container":"apache-event","ID":"7a27ecc95ff7","MemPerc":"0.09%","MemUsage":"29.53MiB / 31.26GiB","Name":"apache-event","NetIO":"128MB / 10.1GB","PIDs":"163"}
+{"BlockIO":"0B / 9.33MB","CPUPerc":"384.15%","Container":"apache-event","ID":"7a27ecc95ff7","MemPerc":"0.12%","MemUsage":"39.17MiB / 31.26GiB","Name":"apache-event","NetIO":"146MB / 11.1GB","PIDs":"163"}
+{"BlockIO":"0B / 9.33MB","CPUPerc":"422.57%","Container":"apache-event","ID":"7a27ecc95ff7","MemPerc":"0.10%","MemUsage":"33.02MiB / 31.26GiB","Name":"apache-event","NetIO":"167MB / 12.2GB","PIDs":"163"}
+{"BlockIO":"0B / 9.33MB","CPUPerc":"41.20%","Container":"apache-event","ID":"7a27ecc95ff7","MemPerc":"0.12%","MemUsage":"37.36MiB / 31.26GiB","Name":"apache-event","NetIO":"176MB / 12.7GB","PIDs":"163"}
+{"BlockIO":"0B / 9.33MB","CPUPerc":"0.01%","Container":"apache-event","ID":"7a27ecc95ff7","MemPerc":"0.12%","MemUsage":"37.36MiB / 31.26GiB","Name":"apache-event","NetIO":"176MB / 12.7GB","PIDs":"163"}
+{"BlockIO":"0B / 9.33MB","CPUPerc":"1.72%","Container":"apache-event","ID":"7a27ecc95ff7","MemPerc":"0.12%","MemUsage":"37.59MiB / 31.26GiB","Name":"apache-event","NetIO":"176MB / 12.7GB","PIDs":"163"}

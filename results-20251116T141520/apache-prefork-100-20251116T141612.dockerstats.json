@@ -1,6 +1,0 @@
-{"BlockIO":"4.1kB / 0B","CPUPerc":"253.76%","Container":"apache-prefork","ID":"96f4c9205776","MemPerc":"0.01%","MemUsage":"3.145MiB / 31.26GiB","Name":"apache-prefork","NetIO":"5.17MB / 593MB","PIDs":"7"}
-{"BlockIO":"4.1kB / 0B","CPUPerc":"316.63%","Container":"apache-prefork","ID":"96f4c9205776","MemPerc":"0.02%","MemUsage":"5.098MiB / 31.26GiB","Name":"apache-prefork","NetIO":"17.7MB / 2.03GB","PIDs":"13"}
-{"BlockIO":"4.1kB / 0B","CPUPerc":"205.67%","Container":"apache-prefork","ID":"96f4c9205776","MemPerc":"0.04%","MemUsage":"12.7MiB / 31.26GiB","Name":"apache-prefork","NetIO":"25.4MB / 2.88GB","PIDs":"37"}
-{"BlockIO":"4.1kB / 840kB","CPUPerc":"219.25%","Container":"apache-prefork","ID":"96f4c9205776","MemPerc":"0.10%","MemUsage":"32.27MiB / 31.26GiB","Name":"apache-prefork","NetIO":"33.9MB / 3.82GB","PIDs":"101"}
-{"BlockIO":"4.1kB / 840kB","CPUPerc":"241.07%","Container":"apache-prefork","ID":"96f4c9205776","MemPerc":"0.13%","MemUsage":"42.01MiB / 31.26GiB","Name":"apache-prefork","NetIO":"43.1MB / 4.84GB","PIDs":"133"}
-{"BlockIO":"4.1kB / 1.52MB","CPUPerc":"24.57%","Container":"apache-prefork","ID":"96f4c9205776","MemPerc":"0.13%","MemUsage":"40.92MiB / 31.26GiB","Name":"apache-prefork","NetIO":"49MB / 5.47GB","PIDs":"131"}

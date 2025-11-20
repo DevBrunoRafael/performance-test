@@ -16,6 +16,10 @@ opcao = input("Digite 1 ou 2: ").strip()
 if opcao not in ("1", "2"):
     raise ValueError("Opção inválida!")
 
+gerar_csv = input("Deseja gerar summary CSV? (s/n): ").strip().lower()
+if gerar_csv not in ("s", "n"):
+    raise ValueError("Resposta inválida (esperado s/n).")
+
 SUFIXO = "-media" if opcao == "2" else "-runs"
 
 results_dirs = sorted(Path(".").glob("results-*"))
@@ -130,10 +134,16 @@ PLOTS_DIR = Path("plots-all")
 PLOTS_DIR.mkdir(exist_ok=True)
 
 if opcao == "2":
-    numeric_cols = ["rps", "requests", "latency_avg_ms", "latency_p95", "errors", "checks_passed", "checks_total", "mem_mb", "cpu_perc"]
+    numeric_cols = ["rps", "requests", "latency_avg_ms", "latency_p95", "errors",
+                    "checks_passed", "checks_total", "mem_mb", "cpu_perc"]
+
     df = df.groupby(["server", "load"], as_index=False)[numeric_cols].mean()
     print("Gerando gráficos com médias por servidor/carga...")
 
+if gerar_csv == "s":
+    csv_path = PLOTS_DIR / f"summary{SUFIXO}.csv"
+    df.to_csv(csv_path, index=False)
+    print(f"\nCSV gerado em: {csv_path}")
 
 def plot_line(x, y, hue, style=None, title="", xlabel="", ylabel="", filename="plot.png",
               ylim=None, yticks=None, xticks=None):
@@ -158,9 +168,8 @@ RPS_MIN, RPS_MAX, RPS_STEP = 0, 40000, 5000
 LAT_MIN, LAT_MAX, LAT_STEP = 0, 1000, 100
 CPU_MIN, CPU_MAX, CPU_STEP = 0, 400, 100
 MEM_MIN, MEM_MAX, MEM_STEP = 0, 100, 10
-LOAD_MIN, LOAD_MAX, LOAD_STEP = 0, 5000, 500
 
-VUS_TICKS = [100, 1000, 5000]
+VUS_TICKS = [100, 1000, 5000, 10000]
 
 plot_line("load", "rps", "server", style="run_id" if opcao=="1" else None,
           title="Throughput (RPS) vs Carga",
